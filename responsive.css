@@ -1,0 +1,61 @@
+/* ========================================================
+   Seva Multi Specialist Hospital — Responsive Layout Rules
+   ======================================================== */
+
+@media (max-width: 1024px) {
+  .page-header {
+    padding: 8rem 0 4rem;
+  }
+  
+  .hero-section {
+    min-height: auto;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem !important;
+  }
+  
+  .btn-premium {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .glass-card {
+    padding: 1.5rem !important;
+  }
+  
+  .lightbox-close {
+    top: -40px;
+    right: 10px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header {
+    padding: 7rem 0 3rem;
+  }
+  
+  .page-header h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  .footer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+  .footer-divider {
+    margin-bottom: 1.5rem;
+  }
+  
+  .scroll-top {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
